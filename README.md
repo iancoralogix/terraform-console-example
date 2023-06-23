@@ -22,25 +22,31 @@ This expression is iterating over each environment in the `global_config` map. F
 
 ## Getting Started
 
-1. Clone the repository: 
+1. Clone the repository:
 
     ```
     git clone https://github.com/iangrunt/terraform-console-example.git
     ```
 
-2. Navigate to the directory: 
+2. Navigate to the directory:
 
     ```
     cd terraform-console-example
     ```
 
-3. Start the Terraform console:
+3. Create a `main.tf` file and wrap the contents of `giant-mess.hcl` in a `locals` block.
+
+    ```
+    vim main.tf
+   ````
+
+4. Start the Terraform console:
 
     ```
     terraform console
     ```
 
-4. In the Terraform console, experiment with various `for` expressions and other Terraform functions on the data structures provided in the `main.tf` file.
+5. In the Terraform console, experiment with various `for` expressions and other Terraform functions on the data structures provided in the `main.tf` file.
 
 ## Further Reading
 

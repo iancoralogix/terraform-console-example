@@ -4,7 +4,7 @@ This repository accompanies a [YouTube tutorial](https://youtu.be/71nsW_MRSbA) d
 
 ## What's Inside?
 
-This repository provides complex nested data structures written in HashiCorp Language (HCL), representing hypothetical resources and settings for various environments. These data structures are designed to mimic real-world use cases, helping you understand how you might work with similar structures in your own Terraform projects.
+This repository provides a complex nested data structure written in HashiCorp Language (HCL), representing hypothetical resources and settings for various environments. These data structures are designed to mimic real-world use cases, helping you understand how you might work with similar structures in your own Terraform projects.
 
 ## Objective
 
@@ -41,6 +41,14 @@ This expression is iterating over each environment in the `global_config` map. F
     ```
 
 4. In the Terraform console, experiment with various `for` expressions and other Terraform functions on the data structures provided in the `main.tf` file.
+
+## Further Reading
+
+Here are some links to the official Terraform documentation that explain these concepts in more detail:
+
+- [For expressions](https://www.terraform.io/docs/language/expressions/for.html)
+- [For_each loops](https://www.terraform.io/docs/language/meta-arguments/for_each.html)
+- [Splat expressions](https://www.terraform.io/docs/language/expressions/splat.html)
 
 ## Prerequisites
 
